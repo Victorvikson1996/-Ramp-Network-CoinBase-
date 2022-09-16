@@ -1,3 +1,3 @@
 import TabBar from "./TabBar";
-
-export { TabBar };
+import CButton from "./CButton";
+export { TabBar, CButton };

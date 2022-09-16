@@ -10,6 +10,7 @@ import {
 } from "react-native";
 import React from "react";
 import Colors from "../constants/Colors";
+import { CButton } from "../components";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
         />
         <Text style={styles.title}>Welcome to Coin Base</Text>
         <Text style={styles.subTitle}>Make your first investment today</Text>
+        <CButton title="Get Started" />
       </ScrollView>
     </SafeAreaView>
   );
